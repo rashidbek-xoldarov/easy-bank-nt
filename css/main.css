@@ -400,7 +400,7 @@ body {
 }
 
 .item-new__img {
-  max-width: 255px;
+  width: 255px;
   height: 200px;
 }
 
@@ -657,6 +657,78 @@ body {
     font-size: 15px;
     line-height: 26px;
   }
+
+  .news__inner {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .news__title {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -0.714286px;
+    color: #2d314d;
+    text-align: center;
+  }
+
+  .news__list {
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .news__item {
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .news__item:nth-child(odd) {
+    margin-right: 20px;
+  }
+
+  .news__item:nth-child(1) {
+    margin-bottom: 20px;
+  }
+
+  .news__item:nth-child(2) {
+    margin-bottom: 20px;
+  }
+
+  .item-new__img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .item-news__info {
+    padding: 28px;
+  }
+
+  .item-news__author {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .item-news__title {
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .item-news__text {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -849,6 +921,54 @@ body {
     font-size: 18px;
     line-height: 26px;
   }
+
+  .site-footer__social-item:not(:last-child) {
+    margin-right: 11px;
+  }
+
+  .site-footer__list:first-child {
+    margin-left: 90px;
+  }
+
+  .site-footer__list:last-child {
+    margin-left: 20px;
+  }
+
+  .site-footer__item {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .news__title {
+    font-size: 42px;
+    line-height: 65px;
+  }
+
+  .news__item {
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .news__item:nth-child(odd) {
+    margin-right: 0;
+  }
+
+  .news__item:nth-child(1) {
+    margin-bottom: 20px;
+  }
+
+  .news__item:nth-child(2) {
+    margin-bottom: 20px;
+  }
+
+  .news__item:nth-child(3) {
+    margin-bottom: 20px;
+  }
+
+  .item-news__info {
+    padding: 26px;
+  }
 }
 
 @media only screen and (max-width: 876px) {
@@ -899,6 +1019,18 @@ body {
     padding: 6px 30px;
     font-size: 12px;
     line-height: 24px;
+  }
+
+  .site-footer__list:first-child {
+    margin-left: 60px;
+  }
+
+  .site-footer__list:last-child {
+    margin-left: 10px;
+  }
+
+  .site-footer__item {
+    width: 110px;
   }
 }
 
@@ -974,6 +1106,67 @@ body {
     left: calc(50% - 160px);
     width: 700px;
     height: 500px;
+  }
+
+  .site-footer__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .site-footer__first {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .site-footer__logo-wrapper {
+    align-items: center;
+  }
+
+  .site-footer__scial-list {
+    margin-top: 32px;
+  }
+
+  .site-footer__social-item:not(:last-child) {
+    margin-right: 16px;
+  }
+
+  .site-footer__list-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .site-footer__list:first-child {
+    margin-left: 0;
+    margin-bottom: 8px;
+  }
+
+  .site-footer__list:last-child {
+    margin-left: 0;
+  }
+
+  .site-footer__item {
+    text-align: center;
+  }
+
+  .site-footer__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  .site-footer__second {
+    align-items: center;
+  }
+
+  .site-footer__second-text {
+    margin-top: 32px;
   }
 }
 
@@ -1210,6 +1403,40 @@ body {
     left: calc(50% - 140px);
     width: 500px;
     height: 350px;
+  }
+
+  .news__title {
+    font-size: 35px;
+    line-height: 42px;
+  }
+
+  .news__item {
+    max-width: 320px;
+    text-align: left;
+  }
+
+  .item-new__img {
+    height: 250px;
+  }
+
+  .item-news__info {
+    padding: 24px;
+  }
+
+  .item-news__author {
+    margin-bottom: 8px;
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .item-news__title {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .item-news__text {
+    font-size: 13px;
   }
 }
 
