@@ -661,15 +661,8 @@ body {
 
 @media only screen and (max-width: 1000px) {
   .hero {
-    background-size: 800px 500px;
-    background-position: top -45px left calc(50% + 250px);
-  }
-
-  .hero__bg-wrapper {
-    width: 500px;
-    height: 700px;
-    background-position: left center;
-    background-size: contain;
+    background-size: 1000px 700px;
+    background-position: top -45px left calc(50% + 409px);
   }
 
   .hero__inner {
@@ -704,7 +697,7 @@ body {
   }
 
   .hero {
-    background-position: top -25px left calc(50% + 270px);
+    background-position: top -75px left calc(50% + 400px);
   }
 
   .hero__info {
@@ -788,8 +781,8 @@ body {
   }
 
   .hero {
-    background-size: 700px 500px;
-    background-position: top -25px left calc(50% + 240px);
+    background-size: 899px 700px;
+    background-position: top -75px left calc(50% + 410px);
   }
 
   .hero__info {
@@ -944,7 +937,7 @@ body {
 
 @media only screen and (max-width: 700px) {
   .hero {
-    background-position: top center;
+    background-position: top left calc(50% + 61px);
   }
 
   .hero__inner {
@@ -1099,8 +1092,8 @@ body {
   }
 
   .hero {
-    background-size: 800px 600px;
-    background-position: top -200px center;
+    background-size: 900px 500px;
+    background-position: top -70px left calc(50% + 60px);
   }
 
   .hero__inner {
@@ -1188,12 +1181,12 @@ body {
 
 @media only screen and (max-width: 500px) {
   .hero {
-    background-size: 800px 600px;
-    background-position: top -230px center;
+    background-size: 900px 500px;
+    background-position: top -75px left calc(50% + 60px);
   }
 
   .hero__inner {
-    padding-top: 350px;
+    padding-top: 450px;
   }
 
   .hero__info {
@@ -1250,8 +1243,8 @@ body {
 
 @media only screen and (max-width: 375px) {
   .hero {
-    background-size: 600px 500px;
-    background-position: top -230px left calc(50% + 10px);
+    background-size: 598px 423px;
+    background-position: top -91px left calc(50% + 42px);
   }
 
   .hero__inner {
